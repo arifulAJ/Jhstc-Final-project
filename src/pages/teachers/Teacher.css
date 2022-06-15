@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.teacherRoot{
+    
+    font-family: 'Roboto';
+
+    
+}
+.teacherRoot h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.cardImage{
+    background-color: rgb(183, 179, 179);
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    justify-content: center;
+
+}
+.cardImage img{
+    background-color: rgb(194, 201, 207);
+    height: 250px;
+      width: 250px;
+      -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+      transition: all 2s ease;
+}
+.cardImage img:hover{
+    width: 270px;
+      height: 270px;
+}
+.titleAfters::after{
+content: "";
+width: 80px;
+height: 5px;
+position:absolute;
+background-color: #03ACEF;
+
+bottom: 5px;
+}
+/* .ArrowText{
+    align-items: center;
+    justify-content: space-between;
+}
+.ArrowText i{
+    font-size: 40px;
+    color: #fff;
+    background-color: #03ACEF;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.ArrowText i:hover{
+    color: #9F1C22;
+} */
+@media screen and (max-width: 780px) {
+    .teacherRoot h1{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .ArrowText i{
+        font-size: 20px;
+        color: #fff;
+        background-color: #03ACEF;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .cardImage img{
+       
+        height: 200px;
+          width: 200px;
+         
+    }
+    .cardImage img:hover{
+        width: 230px;
+          height: 240px;
+    }
+    .cardImage{
+        background-color: rgb(183, 179, 179);
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+        justify-content: center;
+    
+    }
+}

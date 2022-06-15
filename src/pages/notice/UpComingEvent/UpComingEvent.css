@@ -1,0 +1,21 @@
+.upComingEventImage img{
+width: 200px;
+padding-right: 10px;
+}
+.upComingEventBg{
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+}
+@media screen and (max-width: 600px) {
+    .upComingEventBg{
+       
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .upComingEventImage img{
+        width: 80vw;
+        
+        }
+}

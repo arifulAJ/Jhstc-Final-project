@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.campusImg img{
+    width: 100%;
+    height: 80vh;
+}
+.campusContent{
+   
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+.campusContent h1{
+    font-size: 50px;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.contentHed{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.buttonsT{
+    background-color: #9F1C22;
+    border: none;
+}
+.buttonsT:hover{
+    background-color: #03ACEF;
+}
+@media screen and (max-width: 780px) {
+    .campusImg img{
+       display: none;
+    }
+    .campusContent h1{
+        font-size: 30px;
+        font-family: 'Roboto';
+        text-transform: capitalize;
+        font-weight: 800;
+    }
+    .contentHed{
+        font-size: 16px;
+    }
+    .contentHed2{
+        font-size: 13px;
+        color: rgb(126, 135, 143);
+    }
+}

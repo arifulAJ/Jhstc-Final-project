@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.latestPostPerSection{
+    background-color: #fff;
+    justify-content: space-between;
+   font-family: 'Roboto', sans-serif;
+   padding: 10px;
+   display: flex;
+}
+.latestPostImage{
+    justify-content: space-between;
+}
+.latestPostImage img{
+    width: 150px;
+    height: 100px;
+    padding-right: 10px;
+}
+.latestPostPerSection h4{
+    font-size: 20px;
+}
+.latestPostPerSection h4:hover{
+ color: #03ACEF;
+}
+.latestPostPerSection h6{
+    color: #03ACEF;
+    font-size: 18px;
+}
+.latestPostPerSection p{
+    font-size: 14px;
+}
+.latestButton{
+    background-color: #9F1C22;
+    border: none;
+    font-size: 19px;
+    
+    
+}
+.latestButton:hover{
+    background-color: #03ACEF;
+    border: none;
+}
+.buttonCenter{
+    text-align: center;
+    margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+    .latestPostPerSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .latestPostImage img{
+        width: 80vw;
+        height: 200px;
+        padding-bottom: 10px ;
+       
+    }
+}

@@ -1,0 +1,58 @@
+.counterAnimations{
+    background-color: #03ACEF;
+    color: white;
+    padding: 100px 100px;
+}
+.countModify{
+    align-items: center;
+    justify-content: space-around;
+}
+.countModify p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.count{
+    font-size: 70px;
+}
+.countModify::after{
+    content: " ";
+    position: relative;
+    background-color: #9F1C22;
+    height: 5px;
+    width: 120px;
+  left: -280px;
+    bottom: -50px;
+
+}
+.brackhr{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .countModify::after{
+        content: " ";
+        position: relative;
+        background-color: #9F1C22;
+        height: 0px;
+        width: 0px;
+      left: 0px;
+        bottom: 0px;
+    
+    }
+    .brackhr{
+        display: block;
+        color: #9F1C22;
+    }
+    .countModify p{
+        font-size: 16px;
+        padding-left: 5px;
+    
+    }
+    .count{
+        font-size: 30px;
+    }
+    .counterAnimations{
+        
+        padding: 50px 50px;
+    }
+}

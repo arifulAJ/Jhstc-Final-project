@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.footerBg{
+    background-color: #002147;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.FooterContact{
+    color: #fff;
+
+}
+.FooterContact a{
+    color: rgb(241, 238, 238);
+    font-size: 17px;
+    text-decoration: none; 
+    font-weight: 600;
+    padding: 10px;
+}
+.FooterContact a:hover{
+    color: #9F1C22;
+}
+.iconText{
+    display: flex;
+    
+    align-items: center;
+}
+
+.iconText i{
+   font-size: 25px;
+}
+.iconText p{
+   font-size:20px;
+   padding-left: 10px;
+   transform: translateY(10px);
+}
+.socialIcon{
+    padding-left: 30px;
+}
+.socialIcon i{
+    color: white;
+    font-size: 25px;
+}
+.socialIcon i:hover{
+    color:#9F1C22;
+}
+.FooterLink{
+    display: flex;
+    flex-direction: column;
+}
+.FooterLink a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.FooterLink a:hover{
+color: #9F1C22;
+}
