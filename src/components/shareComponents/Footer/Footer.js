@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+
 import ScrollToTop from "react-scroll-to-top";
 import './Footer.css'
 export default function Footer() {
@@ -13,8 +13,8 @@ export default function Footer() {
    
    }} smooth top="500" />
    <div className='footerBg container-fluid p-5 '>
-   <Row>
-        <Col sm={4}>
+   <Row className="py-5">
+        <Col sm={6}>
           <h1>JHSTC</h1>
           <div className='FooterLink py-3'>
         <a href="#fg">Home</a>
@@ -25,7 +25,7 @@ export default function Footer() {
        
 
         </Col>
-        <Col sm={4}>
+        <Col sm={6}>
           <h2>Contacts</h2>
           <div className=' FooterContact py-2'>
           <div>
@@ -58,22 +58,25 @@ export default function Footer() {
              </div>
              </div>
         </Col>
-        <Col sm={4}>
-          <h3>Social Media </h3>
-          <div className='socialIcon py-3'>
-            <a href="https://www.facebook.com/jhstc.edu.bd"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
-          
-          </div>
-          <div className='socialIcon py-3'>
-          <i class="fa-brands fa-twitter">Twitter</i>
-          </div>
-          <div className='socialIcon py-3'>
-          <i class="fa-brands fa-youtube">YouTube</i>
-          </div>
-
-        </Col>
+        
       </Row>
-      <hr />
+    <hr />
+    <div className='IconFont'> 
+    <div className='OnlyFont '>
+    <a href="https://www.facebook.com/jhstc.edu.bd"><i class="fa-brands fa-facebook-f"></i></a>
+    </div>
+    <div className='OnlyFont'>
+    <i class="fa-brands fa-twitter"></i>
+    </div>
+    <div className='OnlyFont'>
+    <i class="fa-brands fa-youtube"></i>
+    </div>
+    <div className='OnlyFont'>
+    <i class="fa-brands fa-instagram"></i>
+    </div>
+
+    </div>
+   
       © Copyright JHSTC 2022. Designed and Developed by <a style={{color:"white",}} href="https://ariful-islam-portfolio-website.netlify.app/">Ariful Islam</a>
    </div>
 
