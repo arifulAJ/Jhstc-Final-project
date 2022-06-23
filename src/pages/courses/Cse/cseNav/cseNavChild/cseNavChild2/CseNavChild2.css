@@ -1,0 +1,22 @@
+
+.accordion-button:not(.collapsed) {
+    background-color: #05a1de;
+    color: #fff;
+}
+.accordion-button {
+    
+    font-size: 30px;
+}
+.accordion-button:hover {
+    background-color: #05a1de;
+    color: #fff;
+    font-size: 30px;
+}
+
+.accordion-item:first-of-type .accordion-button:hover {
+    background-color: #05a1de;
+}
+
+.bodyChild{
+    background-color: #EFEFEF;
+}

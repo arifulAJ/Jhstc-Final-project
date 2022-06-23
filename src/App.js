@@ -1,4 +1,4 @@
-import Menu from "./pages/menu/Menu";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
@@ -10,11 +10,12 @@ import Footer from "./components/shareComponents/Footer/Footer";
 
 
 
+
 function App() {
   return (
     <div >
        <BrowserRouter>
-       <Menu />
+   
         <Routes>
          <Route path='/' element={<Home/>} />
           <Route  path='/home' element={<Home/>} />

@@ -11,7 +11,7 @@ const ParentCourse = () => {
   <div className="col">
     <div className="card ">
       <div className='containersImg'>
-      <img style={{height:"250px"}} className='image card-img-top'  src="https://leverageedu.com/blog/wp-content/uploads/2020/06/Btech-Computer-Science.jpg"  alt="..."/>
+      <img className='image card-img-top containersImgS'  src="https://leverageedu.com/blog/wp-content/uploads/2020/06/Btech-Computer-Science.jpg"  alt="..."/>
       <div className="overlay">
     <div className="text">
       <Link to="/cse"> 
@@ -36,7 +36,7 @@ const ParentCourse = () => {
   <div className="col">
     <div className="card ">
       <div className='containersImg'>
-      <img style={{height:"250px"}} className='image card-img-top'  src="https://www.hamdarduniversity.edu.bd/images/faculty/bba_img/BBA.png"  alt="..."/>
+      <img  className='image card-img-top containersImgS'  src="https://www.hamdarduniversity.edu.bd/images/faculty/bba_img/BBA.png"  alt="..."/>
       <div className="overlay">
     <div className="text">
       <Link to="/bba"> 
@@ -61,7 +61,7 @@ const ParentCourse = () => {
   <div className="col">
     <div className="card ">
       <div className='containersImg'>
-      <img style={{height:"250px"}} className='image card-img-top'  src="https://downtowncentre.org/newsite/wp-content/uploads/2017/05/HSC.png"  alt="..."/>
+      <img  className='image card-img-top containersImgS'  src="https://downtowncentre.org/newsite/wp-content/uploads/2017/05/HSC.png"  alt="..."/>
       <div className="overlay">
     <div className="text">
       <Link to="/hsc"> 

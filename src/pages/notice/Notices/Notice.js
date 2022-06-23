@@ -2,7 +2,7 @@ import React from 'react';
 import LatestPost from '../LatestPost/LatestPost';
 import UpComingEvent from '../UpComingEvent/UpComingEvent';
 import './Notice.css'
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 export default function Notice() {
   return (

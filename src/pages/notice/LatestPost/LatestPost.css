@@ -29,14 +29,14 @@
     font-size: 14px;
 }
 .latestButton{
-    background-color: #9F1C22;
+    background-color: #03ACEF;
     border: none;
     font-size: 19px;
     
     
 }
 .latestButton:hover{
-    background-color: #03ACEF;
+    background-color: #9F1C22;
     border: none;
 }
 .buttonCenter{

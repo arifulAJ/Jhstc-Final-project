@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
 
 .footerBg{
-    background-color: #9F1C22;
+    background-color: #03ACEF;
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
@@ -17,7 +17,7 @@
     padding: 10px;
 }
 .FooterContact a:hover{
-    color: #03ACEF;
+    color: #9F1C22;
 }
 .iconText{
     display: flex;
@@ -41,7 +41,7 @@
     font-size: 25px;
 }
 .socialIcon i:hover{
-    color:#03ACEF;
+    color:#9F1C22;
 }
 .FooterLink{
     display: flex;
@@ -54,7 +54,7 @@
     padding-top: 20px;
 }
 .FooterLink a:hover{
-color: #03ACEF;
+color: #9F1C22;
 }
 .IconFont{
     display: flex;
@@ -72,7 +72,7 @@ color: #03ACEF;
    
 }
 .OnlyFont i{
-    color: #9F1C22;
+    color: #03ACEF;
     padding-top: 10px;
     font-size: 20px;
     justify-content: center;
@@ -83,6 +83,6 @@ color: #03ACEF;
     color: #fff;
 }
 .OnlyFont:hover{
-    background-color: #03ACEF;
+    background-color: #9F1C22;
 
 }

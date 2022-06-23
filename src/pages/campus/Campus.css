@@ -22,11 +22,11 @@
     font-weight: 600;
 }
 .buttonsT{
-    background-color: #9F1C22;
+    background-color: #03ACEF;
     border: none;
 }
 .buttonsT:hover{
-    background-color: #03ACEF;
+    background-color: #9F1C22;
 }
 @media screen and (max-width: 780px) {
     .campusImg img{

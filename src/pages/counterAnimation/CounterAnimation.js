@@ -2,7 +2,7 @@ import React from 'react';
 import './CounterAnimation.css';
 import CountUp from 'react-countup';
 import { Col, Row } from 'react-bootstrap';
-import Scroll from '../scroll/Scroll';
+
 import VisibilitySensor from 'react-visibility-sensor';
 export default function CounterAnimation() {
   return (

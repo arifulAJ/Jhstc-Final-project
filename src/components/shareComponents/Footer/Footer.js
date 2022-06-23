@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div>
   <ScrollToTop  color='#fff'
-   style={{backgroundColor:"#9F1C22",
+   style={{backgroundColor:"#03ACEF",
    
    borderRadius:"50%",
    
@@ -17,7 +17,7 @@ export default function Footer() {
         <Col sm={6}>
           <h1>JHSTC</h1>
           <div className='FooterLink py-3'>
-        <a href="#fg">Home</a>
+        <a href="/home">Home</a>
         <a href="#fg">Login</a>
         <a href="#fg">Register</a>
         

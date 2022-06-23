@@ -6,6 +6,9 @@
   
   
   }
+  .containersImgS{
+   height: 250px;
+  }
 
   
   .image {
@@ -47,4 +50,9 @@
  }
  .textTitle:hover{
     color: #05a1de;
+ }
+ @media screen and (max-width: 780px) {
+  .containersImgS{
+    height: 180px;
+   }
  }

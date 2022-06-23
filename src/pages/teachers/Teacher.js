@@ -17,7 +17,7 @@ function SampleNextArrow(props) {
 
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
-  console.log(onClick)
+  
   return (
     <div
       className={className}

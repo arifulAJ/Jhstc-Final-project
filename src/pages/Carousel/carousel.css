@@ -2,11 +2,14 @@
 
 
 .carouselImage1{
-    width: 100vw;
-    height: auto;
+   
     background-image: url(https://i.ibb.co/Bcpp7PC/rsz-carousel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    -webkit-background-size: 8%0 100% ;
+   
 
 }
 .carouselImage2{
@@ -14,7 +17,12 @@
     height: auto;
     background-image: url(https://scontent.fdac99-1.fna.fbcdn.net/v/t39.30808-6/279293000_153431360517164_1184318257465032540_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHOIIrPeLnKoJjQpgEYig0LMxY_GW3kX3czFj8ZbeRfd7AzK8nu_3BQcaOHgFmXk6WlAsCfNTnpPdyiBPWs2wpI&_nc_ohc=vlnNC-Yzp4sAX_cUaXr&_nc_ht=scontent.fdac99-1.fna&oh=00_AT-EklqBW8tEAEFtiD4SL6DjYmqTbjV1KHnPKkDYO7E5uw&oe=62AE2AF9);
     background-size: cover;
+   
     background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    -webkit-background-size: 8%0 100% ;
+    
  
 }
 .carouselImage3{
@@ -23,6 +31,9 @@
     background-image: url(https://radiustheme.com/demo/wordpress/eikra/wp-content/uploads/2018/01/slider-3-1536x560.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    -webkit-background-size: 8%0 100% ;
  
 }
 
@@ -91,7 +102,7 @@ border: none;
         font-size: 14px;
     }
     .buttons{
-        font-size: 16;
+        font-size: 14px;
         font-weight: 400;
     }
 .carouselImages{

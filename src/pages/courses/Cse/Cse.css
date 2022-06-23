@@ -1,0 +1,80 @@
+.CseCarousel img{
+    width:100%;
+    height: 60vh;
+    opacity: 0.4;
+    
+    
+}
+.CseCarousel{
+    position: relative;
+  text-align: center;
+
+    background-color: black;
+  
+   
+  
+}
+.CseCarousel h4{
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+   
+    color: white;
+}
+.CseCarousel p{
+    
+    position: absolute;
+    top: 50%;
+    right: 10%;
+   
+    color: white;
+}
+.cseBody{
+    background-color: #F5F5F5;
+    padding: 100px;
+}
+.cseBodyLib img{
+    width: 100%;
+    padding: 30px;
+}
+.cseBodyLib{
+    width: 100%;
+    background-color: #fff;
+  
+}
+.coursePrice{
+    border: 1px solid rgb(236, 229, 229);
+    padding: 20px;
+    margin-left: 40px;
+    background-color: #fff;
+}
+.cseBut{
+    width: 90%;
+    margin: 10px;
+    font-size: 30px;
+}
+@media screen and (max-width: 780px) {
+    .CseCarousel h4{
+        font-size: 18px;
+    }
+    .cseBody{
+        padding-top: 10px;
+        padding: 10px;
+    }
+    .cseBodyLib img{
+        width: 100%;
+        padding: 10px;
+    }
+    .cseBut{
+        width: 80%;
+        margin: 10px;
+        font-size: 16px;
+    }
+    .coursePrice{
+     
+        padding: 10px;
+        margin-left: 0px;
+       
+    }
+}

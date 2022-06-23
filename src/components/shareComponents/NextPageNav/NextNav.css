@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.NextNav{
+    background-color: #03ACEF;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.NextNav a{
+    text-decoration: none;
+    color: white;
+}
+.NextNav  a:hover{
+    
+    color: #9F1C22;
+   font-weight: bolder;
+}
+
+.NextNav i{
+  color: #fff;
+    font-size: 20px;
+    
+ 
+}
+
+.NextNav span{
+    color: white;
+    padding-left: 5px;
+}
+@media screen and (max-width: 780px) {
+    .NextNav{
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+padding-left: 10px;
+    }
+    
+}
